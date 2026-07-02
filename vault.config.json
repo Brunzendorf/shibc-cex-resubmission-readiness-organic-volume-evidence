@@ -1,0 +1,18 @@
+{
+  "address": "https://vault.next-inno.de",
+  "kv": {
+    "mount": "secret",
+    "version": 2
+  },
+  "paths": [
+    "environments/dev/shared",
+    "environments/dev/shibc-cex-resubmission-readiness-organic-volume-evidence"
+  ],
+  "output": ".env",
+  "targets": {
+    "WOODPECKER_TOKEN": ".claude/wp-token"
+  },
+  "claudeEnv": [
+    "GITHUB_TOKEN"
+  ]
+}
